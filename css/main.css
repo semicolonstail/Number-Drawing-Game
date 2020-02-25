@@ -1,0 +1,350 @@
+* {
+	font-family: Nunito;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	cursor: url(../images/brush.png), default;
+	font-family: Nunito;
+}
+
+body {
+	width: 1000px;
+	background: #52c5ce;
+	margin: auto;
+}
+
+/*============================================================== index page */
+
+.gif {
+	margin-top: 10%;
+}
+
+.box {
+	margin-left: 116px;
+}
+
+hr {
+	width: 774px;
+	background-color: #fff;
+	margin: 30px auto 0 auto;
+}
+
+.box p {
+	font-size: 22px;
+	color: #3a403f;
+	font-weight: 600;
+	line-height: 32px;
+	padding-top: 30px;
+}
+
+.btn_area {
+	margin-top: 60px;
+}
+
+.btn_area> ul li a {
+	display: inline-block;
+}
+
+.playgame {
+	background: url(../images/btn_play_big_focus.png) no-repeat;
+	width: 231px;
+	height: 53px;
+}
+
+.gallery {
+	background: url(../images/btn_gallery_big_focus.png) no-repeat;
+	width: 231px;
+	height: 53px;
+	margin-left: 6px;
+}
+
+.ins{
+	background: url(../images/btn_instruction_focus.png) no-repeat;
+	width: 231px;
+	height: 53px;
+	display: block;
+	margin-top: 10px;
+}
+
+.playgame> img:hover, .gallery> img:hover, .ins> img:hover {
+	opacity: 0;
+}
+
+/*============================================================== instruction page */
+
+#top {
+	margin-top: 36px;
+}
+
+.play {
+	left: 377px;
+	bottom: 120px;
+	position: absolute;
+}
+
+/*============================================================== pass pages */
+
+.show_area {
+	width: 500px;
+	margin: 34px auto 0 auto;
+	text-align: center;
+}
+
+.show_area> img {
+	margin-top: 30px;
+}
+
+#msg p, #timer p {
+	height: 34px;
+	color: #fff799;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 0 30px;
+}
+
+#timer p {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+/*============================================================== level pages */
+
+ul {
+	overflow: hidden;
+	list-style: none;
+}
+
+.play_area_1 {
+	background: url(../images/bg_l1.png) no-repeat;
+	float: left;
+	margin-top: 30px;
+}
+
+.play_area_2 {
+	background: url(../images/bg_l2.png) no-repeat;
+	float: left;
+}
+
+.play_area_3 {
+	background: url(../images/bg_l3.png) no-repeat;
+	float: left;
+}
+
+.play_area_4 {
+	background: url(../images/bg_l4.png) no-repeat;
+	float: left;
+	margin-top: 30px;
+}
+
+.play_area_5 {
+	background: url(../images/bg_l5.png) no-repeat;
+	float: left;
+	margin-top: 30px;
+}
+
+.top> h1 {
+	display: inline-block;
+	margin-left: 38%;
+	padding-top: 8px;
+}
+
+.top> a> img {
+	margin-left: 20px;
+}
+
+.play_l3 {
+	padding-top: 170px;
+}
+
+.play_l4 {
+	padding-right: 28px;
+	padding-top: 158px;
+}
+
+.play_area > table {
+	margin: 119px 0 0 114px;
+}
+
+.play_area> table tr {
+	background: #0ea1ae;
+}
+
+.play_area > table td {
+	width: 45px;
+	height: 45px;
+	border: 1px solid #98eaf0;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 600;
+	color: #98eaf0;
+}
+
+.play_area_4 > table td, .play_area_5 > table td {
+	width: 45px;
+	height: 45px;
+	border: 1px solid #98eaf0;
+	text-align: center;
+	font-size: 21px;
+	font-weight: 600;
+	color: #98eaf0;
+}
+
+.play_area_4 > table td, .play_area_5> table td {
+	width: 32px;
+	height: 32px;
+}
+
+.play_area_4 > table {
+	margin: 90px 0 0 116px;
+}
+
+.play_area_5 > table {
+	margin: 114px 0 0 116px;
+}
+
+.right_side {
+	float: left;
+	margin-top: 142px;
+	margin-left: 80px;
+}
+
+.right_side_2 {
+	margin-top: 116px;
+}
+
+h3 {
+	color: #fff;
+	font-weight: 600;
+}
+
+#tips {
+	height: 100px;
+	color: #fff799;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.right_side img {
+	display: block;
+	margin-top: 10px;
+}
+
+.buttons {
+	margin-top: 40px;
+}
+
+.buttons_2 {
+	margin-top: 66px;
+}
+
+#check {
+	margin-top: 36px;
+	background: url(../images/btn_check_focus.png) no-repeat;
+	display: block;
+}
+
+#check img:hover {
+	opacity: 0;
+}
+
+.focus {	/*fill the grids*/
+	background-color: #fff;
+}
+
+.cross::after {	/*mark the grid*/
+	content: "X";
+}
+
+/*============================================================== gallery pages */
+
+.work_area {
+	overflow: hidden;
+}
+
+.illustrations {
+	float: left;
+	width: 700px;
+	height: 600px;
+}
+
+.illustrations> ul {
+	overflow: hidden;
+	margin:50px 0 0 34px;
+}
+
+.illustrations> ul li {
+	float: left;
+	width: 194px;
+	height: 272px;
+}
+
+.illustrations> ul li+li {
+	margin: 10px 0 0 10px;
+}
+
+.illustrations> ul li:nth-child(2), .illustrations> ul li:nth-child(3) {
+	margin-top: 0;
+}
+
+.illustrations> ul li:nth-child(4) {
+	margin-left: 0;
+}
+
+.illustrations> ul li:nth-child(1) {
+	background: url(../images/box_1.jpg) no-repeat;
+}
+
+.illustrations> ul li:nth-child(2) {
+	background: url(../images/box_2.jpg) no-repeat;
+}
+
+
+
+.illustrations> ul li:nth-child(3) {
+	background: url(../images/box_3.jpg) no-repeat;
+}
+
+.illustrations> ul li:nth-child(4) {
+	background: url(../images/box_4.jpg) no-repeat;
+}
+
+.illustrations> ul li:nth-child(5) {
+	background: url(../images/box_5.jpg) no-repeat;
+}
+
+.display> img {
+	display: none;
+}
+
+.right_part {
+	float: left;
+	width: 250px;
+	margin-top: 50px;
+	color: #fff799;
+}
+
+.right_part hr {
+	width: auto;
+	height: 0;
+	border: 1px dashed #25a8b1;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: #52c5ce;
+}
+
+.right_part> p {
+	margin-top: 12px;
+}
+
+.info {
+	color: #1d929b;
+}
+
+.leave {
+	background: url(../images/btn_leave_focus.png) no-repeat;
+	display: block;
+	margin-top: 40px;
+}
+.right_part img:hover {
+	opacity: 0;
+}
